@@ -1,0 +1,5 @@
+.generator-field{
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 15px;
+}

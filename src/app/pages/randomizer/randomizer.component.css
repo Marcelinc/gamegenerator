@@ -1,0 +1,25 @@
+.randomizer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/assets/images/wot/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overall{
+    padding: 5vw;
+    background-color: #67990fa6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px, -5px 5px 5px;
+    min-width: 300px;
+    text-align: center;
+}
+#generate-results{
+    color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 30px;
+}

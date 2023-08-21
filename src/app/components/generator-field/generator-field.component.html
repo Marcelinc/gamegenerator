@@ -1,0 +1,6 @@
+<div class="generator-field">
+    {{content ? content.name : fieldTitle}}
+    <img *ngIf="contentType !== 'tier'" [src]="content?.imgUrl" alt="xd" width="100wv" id="nation-img" />
+    <p *ngIf="!content">Choose {{contentType}}</p>
+    <app-button content={{contentType}} (btnClick)="randomize()"></app-button>
+</div>
