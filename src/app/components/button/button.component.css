@@ -1,0 +1,11 @@
+.wot-button{
+    height: 30px;
+    background-color: #c65b0db0;
+    border: none;
+    border-radius: 2px;
+}
+.wot-button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 12px #837fff;
+    font-weight: bold;
+}
