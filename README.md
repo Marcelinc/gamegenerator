@@ -1,6 +1,9 @@
 # Game generator
 Enables to randomize specific parameters
 
+## Live
+https://gamegenerator.netlify.app/
+
 ## Built with 
 * [![TypeScript][TypeScript.img]][TypeScript-url]
 * [![CSS][CSS.img]][CSS-url]
