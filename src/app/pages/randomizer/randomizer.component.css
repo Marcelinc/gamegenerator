@@ -7,14 +7,22 @@
     background-image: url(/assets/images/wot/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
 }
 #overall{
     padding: 5vw;
+    margin: 10px;
     background-color: #67990fa6;
     border-radius: 10px;
     box-shadow: 5px 5px 15px, -5px 5px 5px;
     min-width: 300px;
     text-align: center;
+    min-height: fit-content;
+}
+#overall h2{
+    margin-bottom: 1em;
 }
 #generate-results{
     color: aqua;
@@ -22,4 +30,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     font-size: 30px;
+}
+
+@media screen and (max-width:649px) {
+    #generate-results{
+        display: flex;
+        flex-direction: column;
+    }
 }
