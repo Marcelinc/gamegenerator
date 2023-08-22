@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TankSpecInterface } from 'src/app/data/TankSpecInterface';
+import { TankSpecInterface } from 'src/app/data/Interfaces/TankSpecInterface';
 import { TankSpecService } from 'src/app/services/tank-spec.service';
 
 @Component({

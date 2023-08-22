@@ -1,0 +1,7 @@
+.banner-container:hover{
+    opacity: 0.8;
+    cursor:pointer;
+}
+.banner-container img{
+    width: 100%;
+}

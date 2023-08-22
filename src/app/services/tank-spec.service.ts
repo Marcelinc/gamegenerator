@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { TankSpecInterface } from '../data/TankSpecInterface';
+import { TankSpecInterface } from '../data/Interfaces/TankSpecInterface';
 import { TANKCLASSES } from '../data/tank-classes';
 import { TANKNATIONS } from '../data/tank-nations';
 import { TANKTIERS } from '../data/tank-tiers';
