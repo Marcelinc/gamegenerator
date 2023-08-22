@@ -15,7 +15,6 @@ export class GeneratorFieldComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    
   }
 
   randomize(): void {

@@ -2,4 +2,13 @@
     display: grid;
     justify-content: center;
     grid-row-gap: 15px;
+    grid-template-rows: 20% 40% 40%;
+    height: 100%;
+}
+
+@media screen and (max-width: 649px) {
+    .generator-field{
+        border-bottom: 1px solid #4d4843;
+        padding-block: 10px;
+    }
 }

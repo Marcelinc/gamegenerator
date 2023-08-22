@@ -3,6 +3,7 @@
     background-color: #c65b0db0;
     border: none;
     border-radius: 2px;
+    padding: 0.5em;
 }
 .wot-button:hover{
     cursor: pointer;
