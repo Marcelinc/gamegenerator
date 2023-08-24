@@ -1,5 +1,7 @@
 export interface GameInterface{
     id:number,
     name: string,
-    imgUrl:string
+    shortcut:string,
+    imgUrl:string,
+    activeRandomizer: boolean
 }

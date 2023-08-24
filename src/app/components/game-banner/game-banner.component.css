@@ -1,7 +1,43 @@
+.banner-container{
+    margin: 10px;
+    position: relative;
+}
 .banner-container:hover{
     opacity: 0.8;
     cursor:pointer;
 }
+a{
+    color: inherit;
+}
 .banner-container img{
-    width: 100%;
+    width: 40vw;
+    aspect-ratio: 7/4;
+    object-fit: cover;
+    max-width: 385px;
+    min-width: 250px;
+}
+.banner-name{ 
+    display: none;
+    position: absolute;
+    right: 0;
+    left:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 700;
+    background-color: rgba(24, 23, 22, 0.815);
+    padding: 5px;
+}
+.banner-container:hover .banner-name{
+    display: block;
+}
+
+.soon{
+    opacity: 0.8;
+}
+.soon .banner-name{
+    display: block;
+    
 }

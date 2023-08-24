@@ -8,10 +8,12 @@ import { GameInterface } from 'src/app/data/Interfaces/GameInterface';
 })
 export class GameBannerComponent implements OnInit {
   @Input() game?: GameInterface;
+  urlAddress: string = '#';
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit(): void {
-    console.log(this.game)
+    this.urlAddress = '/'+this.game?.shortcut;
   }
 }
