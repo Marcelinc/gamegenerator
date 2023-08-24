@@ -1,0 +1,7 @@
+<div class="banner-container" [class.soon]="!game?.activeRandomizer">
+    <a routerLink="{{game?.shortcut === 'lol' ? null : urlAddress}}">
+        <img [src]="game?.imgUrl" alt="Game"/>
+        <p *ngIf="game?.shortcut !== 'lol'" class="banner-name">{{game?.name}}</p>
+        <p *ngIf="game?.shortcut === 'lol'" class="banner-name">In development</p>
+    </a>
+</div>

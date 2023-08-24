@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { TankSpecInterface } from 'src/app/data/TankSpecInterface';
+import { TankSpecInterface } from 'src/app/data/Interfaces/TankSpecInterface';
 
 @Component({
   selector: 'app-generator-field',

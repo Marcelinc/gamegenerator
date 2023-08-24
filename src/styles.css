@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-image: linear-gradient(to right bottom, rgb(13, 12, 53), rgb(36, 102, 133));
+    min-height: 100vh;
+    color: aliceblue;
 }

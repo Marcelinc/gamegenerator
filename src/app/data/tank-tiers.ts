@@ -1,4 +1,4 @@
-import { TankSpecInterface } from "./TankSpecInterface";
+import { TankSpecInterface } from "./Interfaces/TankSpecInterface";
 
 export const TANKTIERS: TankSpecInterface[] = [{
     id:1,
