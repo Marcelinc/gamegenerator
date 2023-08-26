@@ -2,9 +2,9 @@
     <section id="overall">
         <h2>Generate nation, tier, and vehicle class</h2>
         <div id="generate-results">
-            <app-generator-field fieldTitle="Nation" contentType="nation" (randomizer)="randomizeNation()" [content]="actualNation"></app-generator-field>
-            <app-generator-field fieldTitle="Tier" contentType="tier" (randomizer)="randomizeTier()" [content]="actualTier"></app-generator-field>
-            <app-generator-field fieldTitle="Class" contentType="class" (randomizer)="randomizeClass()" [content]="actualClass"></app-generator-field>
+            <app-generator-field fieldTitle="Nation" contentType="nation" (randomizer)="randomize($event)" [content]="actualNation" [randomizing]="randomizingNation"></app-generator-field>
+            <app-generator-field fieldTitle="Tier" contentType="tier" (randomizer)="randomize($event)" [content]="actualTier" [randomizing]="randomizingTier"></app-generator-field>
+            <app-generator-field fieldTitle="Class" contentType="class" (randomizer)="randomize($event)" [content]="actualClass" [randomizing]="randomizingClass"></app-generator-field>
         </div>
     </section>
 </div>

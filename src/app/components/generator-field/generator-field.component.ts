@@ -11,13 +11,16 @@ export class GeneratorFieldComponent implements OnInit {
   @Input() contentType: string = '';
   @Input() content: TankSpecInterface | null = null;
   @Output() randomizer = new EventEmitter();
+  @Input() randomizing: boolean = false;
 
   constructor() {}
 
   ngOnInit(): void {
+    
   }
 
   randomize(): void {
-    this.randomizer.emit(this.content);
+    console.log('Generator Field: '+this.randomizing)
+    this.randomizer.emit(this.contentType);
   }
 }

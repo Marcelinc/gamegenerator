@@ -8,6 +8,7 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 export class ButtonComponent implements OnInit {
   @Input() content: string = '';
   @Output() btnClick = new EventEmitter();
+  @Input() randomizing: boolean = false;
 
   constructor(){}
 
