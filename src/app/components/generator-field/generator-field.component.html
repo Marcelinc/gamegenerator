@@ -5,5 +5,5 @@
         <img *ngIf="contentType !== 'tier' && content !== null" [src]="content.imgUrl" alt="xd" width="100wv" id="nation-img" />
     </div>
     <p *ngIf="!content">Choose {{contentType}}</p>
-    <app-button content={{contentType}} (btnClick)="randomize()"></app-button>
+    <app-button content={{contentType}} (btnClick)="randomize()" [randomizing]="randomizing"></app-button>
 </div>
