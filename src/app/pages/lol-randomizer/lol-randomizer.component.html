@@ -1,0 +1,39 @@
+<div class="randomizer-container">
+    <main id="lol-randomizer-content">
+        <section id="position-content">
+            <p>
+                Choose gamemode
+                <select name="gamemode" 
+                    id="gamemode" 
+                    ng-options="x.value for x in gamemodes track by x.key"
+                    [(ngModel)]="selectedMode"
+                >
+                    <option *ngFor="let option of gamemodes" [value]="option.key">
+                        {{option.value}}
+                    </option>
+                </select>
+                <button id="position-randomizer" (click)="randomize('gamemode')">{{randomizingGamemode === true ?'Randomizing':'Randomize'}}</button>
+            </p>
+
+            <p>
+                Choose your position
+                <select name="position" 
+                    id="position" 
+                    #dropdownPosition
+                    ng-options="x.value for x in positions track by x.key"
+                    [(ngModel)]="selectedPosition"
+                >
+                    <option *ngFor="let option of positions" [value]="option.key">
+                        {{option.value}}
+                    </option>
+                </select>
+                <button id="position-randomizer" (click)="randomize('position')">{{randomizingPosition === true ?'Randomizing':'Randomize'}}</button>
+            </p>
+        </section>
+        <section id="champion-content">
+            <h2>Randomize champion</h2>
+            <app-champions-list></app-champions-list>
+            <button>Randomize</button>
+        </section>
+    </main>
+</div>

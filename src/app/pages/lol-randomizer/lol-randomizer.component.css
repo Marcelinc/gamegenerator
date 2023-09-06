@@ -1,0 +1,23 @@
+.randomizer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    min-height: 100vh;
+    background-image: url(/assets/images/lol/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+#lol-randomizer-content{
+    background-color: rgba(225, 234, 241, 0.699);
+    padding: 1em;
+}
+#position-content{
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px dashed rgb(78, 16, 16);
+}
